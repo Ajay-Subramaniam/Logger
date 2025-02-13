@@ -49,6 +49,7 @@ def generate_logs(instance_name):
                 "transaction_id": transaction_id,
                 "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
                 "instance": instance_name,
+                "additional_field" : false,
                 "log_message": f"Processing step {i + 1}"
             }
 
